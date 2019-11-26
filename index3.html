@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Berkshire+Swash|Pacifico|Parisienne|Kalam|Josefin+Sans|Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<script src="https://kit.fontawesome.com/523d90fcc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="blur">
+	<div class="menu">
+        
+        <div class="rotate"></div>
+		<div id="open-nav"><a href="javascript:void(0)"><</a></div>
+		<div id="side-nav">
+			<div class="close-nav">X</div>
+			<a href="https://maciejkurzac.github.io/testing/"><div class="item-nav">Start</div></a>
+            		<a href="#aktualnosci"><div class="item-nav">Aktualności</div></a>
+           		<a href="#blog"><div class="item-nav">Blog</div></a>
+			<a href="#kontakt"><div class="item-nav">Kontakt</div></a>
+			<a href=""><div class="item-nav"><i class="fab fa-facebook"></i></div></a>
+			<a href=""><div class="item-nav"><i class="fab fa-instagram"></i></div></a>
+		</div>
+
+	</div>
+
+	<script>
+		
+        document.addEventListener('click', function() {
+		    document.getElementById('side-nav').style.width= "0px";
+	    }, false);
+	
+	    document.querySelector('#open-nav').addEventListener('click', function(e) {
+            let side_nav = document.getElementById('side-nav');
+            if(side_nav.style.width=='0px')
+                side_nav.style.width = '200px';
+            else
+                side_nav.style.width= "0px";
+            e.stopPropagation();
+            return false;
+        }, false); 
+	</script>
+        <section id="start" class="separator">
+            <h3>Start</h3>
+		<hr style="width: 50%">	     
+        </section>
+
+        <div class="content bg1">
+            <h2>Lorem ipsum dolor sit amet!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed quam nunc. 
+                Integer venenatis erat vitae magna ultrices ornare ac vitae turpis. Suspendisse tristique, 
+                est vel ultricies rutrum, lacus tellus feugiat purus, sit amet accumsan felis ante vitae ex. 
+                Vestibulum condimentum feugiat turpis, sed pellentesque nulla commodo non. Etiam eget feugiat ipsum, at posuere nisi. 
+                Vestibulum mi metus, venenatis sit amet elementum id, placerat non metus. Orci varius natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Morbi lectus sapien, mollis at sollicitudin in, rhoncus nec ipsum.
+        </p>
+        </div>  
+
+        <section id="aktualnosci" class="separator">
+            <h3>Aktualności</h3>
+		<hr style="width: 50%">	   
+        </section>
+
+        <div class="content bg2">
+            <h2>Sed nec augue euismod magna tempor euismod.</h2>
+            <p>Sed nec augue euismod magna tempor euismod. Curabitur dictum rhoncus quam non lacinia. Vestibulum posuere risus convallis, 
+                tristique dui sit amet, rutrum magna. Fusce sagittis rhoncus velit vel malesuada. Duis id vestibulum ipsum.
+                 Proin tempor tortor et elit ultricies luctus. Pellentesque massa odio, rutrum quis justo in, tincidunt sagittis massa.
+                
+                Proin ante dui, efficitur a laoreet eget, tincidunt id nisl. Cras urna ex, porttitor a rutrum vitae, molestie ac urna. 
+                Donec ut augue nisi. Sed vestibulum, quam sodales luctus tincidunt, nunc orci ultrices est, et interdum elit nisl at enim. 
+                Integer commodo molestie nulla, vel ultrices dui dictum nec. Cras nunc massa, finibus sodales diam ut, venenatis auctor nisi. 
+                Ut sit amet eleifend metus.</p>
+        </div>
+
+        <section id="blog" class="separator">
+            <h3>Blog</h3>
+		<hr style="width: 50%">	    
+        </section>
+
+        <div class="content bg3">
+            <h2>Vestibulum tempor fermentum massa, eu pharetra libero commodo quis.</h2>
+            <p>Vestibulum tempor fermentum massa, eu pharetra libero commodo quis. 
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+                Morbi ex nisi, tincidunt vitae mauris lobortis, convallis sagittis diam. Donec dapibus vitae dolor non pretium. 
+                Nunc iaculis nulla libero, viverra vestibulum diam luctus non. Cras dignissim lectus et ex placerat, et consectetur elit efficitur. 
+                Phasellus laoreet dolor non felis venenatis faucibus. Morbi interdum sem in vestibulum convallis. Phasellus rutrum commodo erat. 
+                In ligula urna, ullamcorper vel erat ut, auctor rhoncus dolor. In tempus consequat lacus non dapibus.</p>
+        </div>
+
+        <section id="kontakt"class="separator">
+            <h3>Kontakt</h3>
+		<hr style="width: 50%">
+        </section>
+
+        <div class="content bg4">
+		
+           
+        </div>
+	</div>
+</body>
+</html>
