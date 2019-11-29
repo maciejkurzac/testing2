@@ -24,58 +24,14 @@
 		
 		<div id="big_menu">
 		<ul>
-			<li class="one item-nav"><a href="index.html" style="color:orange">O mnie</a></li><!--
+			<li class="one item-nav"><a href="index.html">O mnie</a></li><!--
 		 --><li class="two item-nav"><a href="moje_uslugi.html">Moje usługi</a></li><!--
 		 --><li class="three item-nav"><a href="portfolio.html">Portfolio</a></li><!--
 		 --><li class="four item-nav"><a href="cennik.html">Cennik</a></li><!--
-		 --><li class="five item-nav"><a href="kontakt.html">Kontakt</a></li>
-		
+		 --><li class="five item-nav"><a href="kontakt.html" style="color:orange">Kontakt</a></li>
+	
 		 </ul>
-		 
 		 </div>
-		 <button id="toggler">
-					<i class="fas fa-bars"></i>
-			</button>
-				<div id="small_menu">
-					<ul>
-						<li><a id="start" href="index.html">
-							O mnie
-						</a>
-						</li>
-						<li><a href="moje_uslugi.html">
-							Moje usługi
-						</a>
-						</li>
-						<li><a href="portfolio.html">
-							Portfolio
-						</a>
-						</li>
-						<li><a href="#cennik.html">
-							Cennik
-						</a>
-						</li>
-						<li><a href="#kontakt.html">
-							Kontakt
-						</a>
-						</li>
-					</ul>
-				</div>
-<script>
-	document.addEventListener('click', function() {
-		document.getElementById('small_menu').style.height="0px";
-	}, false);
-	
-	document.querySelector('#toggler').addEventListener('click', function(e) {
-		let small_menu = document.getElementById('small_menu');
-		if(small_menu.style.height == '0px')
-			small_menu.style.height="700px";
-		else
-			small_menu.style.height='0px';
-		e.stopPropagation();
-		return false;
-	}, false); 
-	
-</script>
 	<!--<script>
 		
         document.addEventListener('click', function() {
@@ -92,8 +48,8 @@
             return false;
         }, false); 
 	</script>-->
-        <section id="o_mnie" class="separator">
-            <h3>O mnie</h3>
+        <section id="kontakt" class="separator">
+            <h3>Kontakt</h3>
 		    
         </section>
 
