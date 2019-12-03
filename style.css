@@ -1,9 +1,10 @@
 html {
 	scroll-behavior: smooth;
+	
 }
 body{
 	margin: 0px;
-	min-height: 1248px;
+	padding: 0px;
 	width: 100%;
 	font-family: Josefin Sans;
 	
@@ -16,6 +17,7 @@ header{
 	//color: white;
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 20px;
 }
 a{
 		text-decoration: none;
@@ -26,14 +28,14 @@ a{
 	color: black;
     display: inline-block;
 	width: 20%;
-	transition: .3s;
+	transition: 0.3s;
  
 }
 #big_menu a:hover{
 	font-size: 14px;
 		//color:gold;
 		text-shadow: 2px 2px 2px black;
-	
+
 }
 #big_menu ul{
 	
@@ -88,21 +90,7 @@ border: 1px solid black;
 	animation-timing-function: linear;
 	font-family: 'Poppins', sans-serif;
 }
-#open-nav a{
-    color: black;
-}
-#open-nav a:hover{
-    color: green;
 
-}
-.close-nav{
-	cursor: pointer;
-	position: absolute;
-	top: 5px;
-	left: 10px;
-	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
-}
 .close-nav:active{
 	color: green;
 	animation-name: spin;
@@ -142,7 +130,7 @@ border: 1px solid black;
 
 .separator {
 	color: black;
-  font-size: 1.6em;
+  font-size: 25px;
   height: 100px;
 	
   text-align: center;
@@ -204,6 +192,24 @@ font-family: 'Kalam', cursive;
 	line-height: 200%;
 	list-style: none;
 	border: solid 1px black;
+}
+.gallery{
+	//display: inline;
+	display: inline-block;
+//	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.gallery img{
+	width: 400px;
+	transition: 0.2s;
+}
+.gallery img:hover{
+	opacity: 0.6;
+	cursor: pointer;
+	box-shadow: 3px 3px 5px black;
+	filter: blur(2px);
 }
   
   @media (max-width: 870px) {

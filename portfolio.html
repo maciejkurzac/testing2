@@ -21,61 +21,62 @@
            <!-- <a href="#Kontakt"><div class="item-nav">Kontakt</div></a>
 			<a href=""><div class="item-nav"><i class="fab fa-facebook"></i></div></a>
 			<a href=""><div class="item-nav"><i class="fab fa-instagram"></i></div></a> -->
-		<header><h2><img class="logo" src="—Pngtree—eyelashes  icon design template_3762272.png"><br>Imię Nazwisko</h2></header>
-		<div id="big_menu">
-		<ul>
-			<li class="one item-nav"><a href="index.html" style="color:orange">O mnie</a></li><!--
-		 --><li class="two item-nav"><a href="moje_uslugi.html">Moje usługi</a></li><!--
-		 --><li class="three item-nav"><a href="portfolio.html">Portfolio</a></li><!--
-		 --><li class="four item-nav"><a href="cennik.html">Cennik</a></li><!--
-		 --><li class="five item-nav"><a href="kontakt.html">Kontakt</a></li>
 		
-		 </ul>
-		 
-		 </div>
-		 <button id="toggler">
-					<i class="fas fa-bars"></i>
-			</button>
-				<div id="small_menu">
-					<ul>
-						<li><a id="start" href="index.html">
-							O mnie
-						</a>
-						</li>
-						<li><a href="moje_uslugi.html">
-							Moje usługi
-						</a>
-						</li>
-						<li><a href="portfolio.html">
-							Portfolio
-						</a>
-						</li>
-						<li><a href="#cennik.html">
-							Cennik
-						</a>
-						</li>
-						<li><a href="#kontakt.html">
-							Kontakt
-						</a>
-						</li>
-					</ul>
-				</div>
-<script>
-	document.addEventListener('click', function() {
-		document.getElementById('small_menu').style.height="0px";
-	}, false);
-	
-	document.querySelector('#toggler').addEventListener('click', function(e) {
-		let small_menu = document.getElementById('small_menu');
-		if(small_menu.style.height == '700px')
-			small_menu.style.height="0px";
-		else
-			small_menu.style.height='700px';
-		e.stopPropagation();
-		return false;
-	}, false); 
-	
-</script>
+            <header><h2><img class="logo" src="—Pngtree—eyelashes  icon design template_3762272.png"><br>Imię Nazwisko</h2></header>
+            <div id="big_menu">
+            <ul>
+                <li class="one item-nav"><a href="index.html">O mnie</a></li><!--
+             --><li class="two item-nav"><a href="moje_uslugi.html">Moje usługi</a></li><!--
+             --><li class="three item-nav"><a href="portfolio.html" style="color:orange">Portfolio</a></li><!--
+             --><li class="four item-nav"><a href="cennik.html">Cennik</a></li><!--
+             --><li class="five item-nav"><a href="kontakt.html">Kontakt</a></li>
+            
+             </ul>
+             
+             </div>
+             <button id="toggler">
+                        <i class="fas fa-bars"></i>
+                </button>
+                    <div id="small_menu">
+                        <ul>
+                            <li><a id="start" href="index.html">
+                                O mnie
+                            </a>
+                            </li>
+                            <li><a href="moje_uslugi.html">
+                                Moje usługi
+                            </a>
+                            </li>
+                            <li><a href="portfolio.html">
+                                Portfolio
+                            </a>
+                            </li>
+                            <li><a href="#cennik.html">
+                                Cennik
+                            </a>
+                            </li>
+                            <li><a href="#kontakt.html">
+                                Kontakt
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+    <script>
+        document.addEventListener('click', function() {
+            document.getElementById('small_menu').style.height="0px";
+        }, false);
+        
+        document.querySelector('#toggler').addEventListener('click', function(e) {
+            let small_menu = document.getElementById('small_menu');
+            if(small_menu.style.height == '700px')
+                small_menu.style.height="0px";
+            else
+                small_menu.style.height='700px';
+            e.stopPropagation();
+            return false;
+        }, false); 
+        
+    </script>
 	<!--<script>
 		
         document.addEventListener('click', function() {
@@ -94,18 +95,24 @@
 	</script>-->
         <section id="portfolio" class="separator">
             <h3>Portfolio</h3>
-		    
+		    <hr>
         </section>
 
-        <div class="content bg1">
-            <h2>Lorem ipsum dolor sit amet!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed quam nunc. 
-                Integer venenatis erat vitae magna ultrices ornare ac vitae turpis. Suspendisse tristique, 
-                est vel ultricies rutrum, lacus tellus feugiat purus, sit amet accumsan felis ante vitae ex. 
-                Vestibulum condimentum feugiat turpis, sed pellentesque nulla commodo non. Etiam eget feugiat ipsum, at posuere nisi. 
-                Vestibulum mi metus, venenatis sit amet elementum id, placerat non metus. Orci varius natoque penatibus et magnis dis parturient montes, 
-                nascetur ridiculus mus. Morbi lectus sapien, mollis at sollicitudin in, rhoncus nec ipsum.
-        </p>
+        <div class="content">
+            <div class="gallery">
+                <p>Makijaż</p>
+                <img src="p1.jpg">
+            </div>
+            <div class="gallery">
+                <p>Ślubne</p>
+                <img src="p4.jpg">
+            </div>
+            <div class="gallery">
+                <p>Warsztaty</p>
+                <img src="p2.jpg">
+            </div>
+
+        
         </div>  
 <!--
         <section id="aktualnosci" class="separator">
