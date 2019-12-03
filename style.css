@@ -17,7 +17,9 @@ header{
 	//color: white;
 	text-align: center;
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 25px;
+	font-family: 'Berkshire Swash', cursive;
+  text-shadow: 1px 1px 3px black;
 }
 a{
 		text-decoration: none;
@@ -130,15 +132,14 @@ border: 1px solid black;
 
 .separator {
 	color: black;
-  font-size: 25px;
+  font-size: 20px;
   height: 100px;
 	
   text-align: center;
 	//font-family: 'Kaushan Script', cursive;
 	//font-family: 'Pacifico', cursive;
 	//font-family: 'Parisienne', cursive;
-font-family: 'Berkshire Swash', cursive;
-  text-shadow: 1px 1px 3px black;
+
 }
 
 
@@ -219,5 +220,7 @@ font-family: 'Kalam', cursive;
 	#toggler{
 		display:block;
 	}
-	
+	.separator{
+		margin-top: 50px;
+	}
 }
