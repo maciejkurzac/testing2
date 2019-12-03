@@ -6,22 +6,33 @@ body{
 	min-height: 1248px;
 	width: 100%;
 	font-family: Josefin Sans;
+	
+}
+hr{
+	width: 20%;
+	border-color: orange;
+}
+header{
+	//color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
 a{
 		text-decoration: none;
-		color: white;
+	
 }
 #big_menu a{
 
-    
+	color: black;
     display: inline-block;
 	width: 20%;
 	transition: .3s;
-    
+ 
 }
 #big_menu a:hover{
-	font-size: 15px;
-    
+	font-size: 14px;
+		//color:gold;
+		text-shadow: 2px 2px 2px black;
 	
 }
 #big_menu ul{
@@ -36,22 +47,31 @@ a{
 
 
 /*dimness*/
-
+.logo{
+	
+	height: 100px;
+	
+	
+}
 
 /*nav*/
 #big_menu{
-    
-  
-	width: 100%;
-    
-    position: fixed;
+
+	background-color: rgba(255,255,255,0.9);
+  // text-align: center;
+padding-left: 200px;
+padding-right: 200px;
+    //overflow: hidden;
+    //height: 100%;
+		position: sticky;
+		top: 0px;
    
 	z-index: 10;
-	background-color: #111;
+//	background-color: #111;
 	
-	
-	color: white;
-	font-size: 20px;
+border: 1px solid black;
+
+	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
 	//font-family: 'Parisienne', cursive;
 	
@@ -121,85 +141,68 @@ a{
 }
 
 .separator {
-	color: white;
+	color: black;
   font-size: 1.6em;
   height: 100px;
-	padding-top: 200px;
-	padding-bottom: 100px;
+	
   text-align: center;
 	//font-family: 'Kaushan Script', cursive;
 	//font-family: 'Pacifico', cursive;
 	//font-family: 'Parisienne', cursive;
 font-family: 'Berkshire Swash', cursive;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 3px black;
 }
 
 
-  .bg4 {
 
-   
-	
-	  
-	    content: "";
-  //display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: url("p4.jpg") no-repeat center;
-
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  }
 
   .content {
-	
+	 // position: relative;
     color: black;
 		padding: 20px 50px 20px 50px;
     min-height: 650px;
     text-align: center;
 	background-color: white;
-   text-shadow: 1px 1px 1px gray;
+   //text-shadow: 1px 1px gray;
     font-size: 18px;
 font-family: 'Kalam', cursive;
   }
  #toggler{
-	 position: fixed;
+	position: fixed;
 	display: none;
+	top: 10px;
 	border: solid 1px black;
-	color: white;
-	padding: 10px;
+	color: black;
+	padding: 12px;
 	margin-top: 20px;
 	margin-left:5px;
-	background-color: #111;
+	background-color: white;
 }
 #small_menu a:hover{
 	color: orange;
-	font-size:17px;
+	//font-size:14px;
+	text-shadow: 1px 1px 1px black;
+}
+#small_menu a{
+	color: black;
 }
 #small_menu{
 	position: fixed;
-	top: 60px;
-	
+	top: 80px;
+	height: 0px;
 	overflow: hidden;
 	margin-left: 5px;
 	transition: 0.5s;
-	font-size: 20px;
+	font-size: 15px;
 }
 #small_menu ul{
 	width: 120px;
 	padding: 10px;
 	margin: 0px;
-	background-color: #111;
+	background-color: white;
 	//float: left;
 	line-height: 200%;
-	text-decoration: none;
+	list-style: none;
 	border: solid 1px black;
 }
   
