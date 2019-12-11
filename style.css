@@ -18,13 +18,14 @@ header{
   text-shadow: 1px 1px 3px black;
   margin: -20px 0 -20px 0;
 }
+header img{
+	width: 400px;
+}
 a{
 	text-decoration: none;
 }
 
-.logo{
-	height: 100px;
-}
+
 
 /*nav*/
 #big_menu{
@@ -148,6 +149,9 @@ a{
 }
   
 @media (max-width: 870px) {
+	header img{
+		width: 300px;
+	}
 	#big_menu{
 		display: none;
 	}
@@ -168,5 +172,8 @@ a{
 	.content {
 		 padding: 20px 20px 20px 20px;
 		 text-align: center;
+	}
+	.logo{
+		height: 80px;
 	}
 }
