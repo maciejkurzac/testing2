@@ -14,15 +14,8 @@
 	
         
        
-		<!--<div id="open-nav"><a href="javascript:void(0)"><</a></div>-->
-		
-			
-		
-           <!-- <a href="#Kontakt"><div class="item-nav">Kontakt</div></a>
-			<a href=""><div class="item-nav"><i class="fab fa-facebook"></i></div></a>
-			<a href=""><div class="item-nav"><i class="fab fa-instagram"></i></div></a> -->
-            <header><img class="logo" src="Logo białe bez tła.png"></header>
-            <div id="big_menu">
+		<header><img class="logo" src="Logo białe bez tła.png"></header>
+        <div id="big_menu">
             <ul>
                 <li class="one item-nav"><a href="index.html">O mnie</a></li><!--
              --><li class="two item-nav"><a href="moje_uslugi.html" style="color:rgb(230,183,87)">Moje usługi</a></li><!--
@@ -38,7 +31,7 @@
                 </button>
                     <div id="small_menu">
                         <ul>
-                            <li><a href="index.html">
+                            <li><a id="start" href="index.html">
                                 O mnie
                             </a>
                             </li>
@@ -50,11 +43,11 @@
                                 Portfolio
                             </a>
                             </li>
-                            <li><a href="cennik.html">
+                            <li><a href="#cennik.html">
                                 Cennik
                             </a>
                             </li>
-                            <li><a href="kontakt.html">
+                            <li><a href="#kontakt.html">
                                 Kontakt
                             </a>
                             </li>
@@ -76,6 +69,22 @@
         }, false); 
         
     </script>
+	<!--<script>
+		
+        document.addEventListener('click', function() {
+		    document.getElementById('side-nav').style.width= "0px";
+	    }, false);
+	
+	    document.querySelector('#open nav').addEventListener('click', function(e) {
+            let side_nav = document.getElementById('side-nav');
+            if(side_nav.style.width=='0px')
+                side_nav.style.width = '200px';
+            else
+                side_nav.style.width= "0px";
+            e.stopPropagation();
+            return false;
+        }, false); 
+	</script>-->
      
 
         <div class="content bg1">

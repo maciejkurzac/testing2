@@ -5,7 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	font-family: Josefin Sans;
+	//font-family: Josefin Sans;
 }
 hr{
 	width: 70%;
@@ -14,12 +14,13 @@ hr{
 header{
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Berkshire Swash', cursive;
+
   text-shadow: 1px 1px 3px black;
   margin: -20px 0 -20px 0;
 }
 header img{
 	width: 400px;
+	height: 200px;
 }
 a{
 	text-decoration: none;
@@ -36,9 +37,9 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
-	//font-family: 'Parisienne', cursive;
+	font-size: 15px !important;
+	font-family: Josefin Sans;
+	
 }
 #big_menu a{
 	font-weight: bold;
@@ -81,6 +82,7 @@ a{
 	margin-left: 5px;
 	transition: 0.5s;
 	font-size: 15px;
+	font-family: Josefin Sans;
 }
 #small_menu a:hover{
 	color: orange;
@@ -106,18 +108,17 @@ a{
   font-size: 20px;
   height: 100px;
   text-align: center;
-	//font-family: 'Kaushan Script', cursive;
-	//font-family: 'Pacifico', cursive;
-	//font-family: 'Parisienne', cursive;
+	
 }
 .content {
   margin-top: 40px;
+ text-align: center;
   color: black;
 	padding: 20px 100px 20px 100px;
   min-height: 650px;
  	background-color: white;
-  font-size: 18px;
-	font-family: 'Kalam', cursive;
+	 //font-family: 'Kalam', cursive;
+	 font-family: 'Poppins', sans-serif;
 }
   
 .mnie_pic{
@@ -139,6 +140,7 @@ a{
 }
 .gallery img{
 	width: 350px;
+	height: 525px;
 	transition: 0.2s;
 }
 .gallery img:hover{
@@ -148,7 +150,7 @@ a{
 	filter: blur(2px);
 }
   
-@media (max-width: 870px) {
+@media (max-width: 1000px) {
 	header img{
 		width: 300px;
 	}
