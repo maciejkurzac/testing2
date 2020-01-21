@@ -5,7 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	//font-family: Josefin Sans;
+	font-family: 'Nova Mono', monospace;
 }
 hr{
 	width: 70%;
@@ -16,7 +16,7 @@ header{
 	font-size: 25px;
 
   text-shadow: 1px 1px 3px black;
-  margin: -20px 0 -20px 0;
+  margin-bottom: -20px;
 }
 header img{
 	width: 400px;
@@ -25,8 +25,17 @@ header img{
 a{
 	text-decoration: none;
 }
-
-
+.fab{
+	position: absolute;
+	top:  50px;
+	font-size: 35px;
+}
+.fa-facebook{
+	right: 150px;
+}
+.fa-instagram{
+	right: 110px;
+}
 
 /*nav*/
 #big_menu{
@@ -37,19 +46,19 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 15px !important;
+	font-size: 20px !important;
 	font-family: Josefin Sans;
-	
+	text-transform: uppercase;
 }
 #big_menu a{
 	font-weight: bold;
 	color: black;
   display: inline-block;
-	width: 20%;
+	width: 25%;
 	transition: 0.3s;
 }
 #big_menu a:hover{
-	font-size: 14px;
+	font-size: 18px;
 	text-shadow: 2px 2px 2px black;
 }
 #big_menu ul{
@@ -81,8 +90,9 @@ a{
 	overflow: hidden;
 	margin-left: 5px;
 	transition: 0.5s;
-	font-size: 15px;
+	font-size: 18px;
 	font-family: Josefin Sans;
+	text-transform: uppercase;
 }
 #small_menu a:hover{
 	color: orange;
@@ -133,14 +143,14 @@ a{
 }
 .gallery{
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	
 }
 .gallery img{
-	width: 350px;
-	height: 525px;
+	width: 280px;
+	height: 420px;
 	transition: 0.2s;
 }
 .gallery img:hover{
@@ -153,6 +163,10 @@ a{
 @media (max-width: 1000px) {
 	header img{
 		width: 300px;
+		height: 150px;
+	}
+	.fab{
+		font-size: 25px;
 	}
 	#big_menu{
 		display: none;
@@ -168,7 +182,6 @@ a{
 		padding: 0px 0px 0px 0px;
 	}
 	.gallery img{
-		width: 250px;
 		transition: 0.2s;
 	}
 	.content {
