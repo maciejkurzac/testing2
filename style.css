@@ -5,7 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	font-family: 'Nova Mono', monospace;
+	font-family: 'Coda', cursive; 
 }
 hr{
 	width: 70%;
@@ -46,7 +46,7 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 17px !important;
+	font-size: 20px !important;
 	font-family: Josefin Sans;
 	text-transform: uppercase;
 }
@@ -58,7 +58,7 @@ a{
 	transition: 0.3s;
 }
 #big_menu a:hover{
-	font-size: 16px;
+	font-size: 18px;
 	text-shadow: 2px 2px 2px black;
 }
 #big_menu ul{
@@ -159,6 +159,7 @@ a{
 	box-shadow: 3px 3px 5px black;
 	filter: blur(2px);
 }
+
   
 @media (max-width: 1000px) {
 	header img{
