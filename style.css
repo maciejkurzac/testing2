@@ -134,6 +134,7 @@ a{
 .mnie_pic{
   float: left;
   margin-right: 50px;
+box-shadow: 1px 1px 3px black;
 }
 .mnie_pic img{
 	width: 300px;
