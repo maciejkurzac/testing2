@@ -20,7 +20,7 @@ header{
 }
 header img{
 	width: 400px;
-	height: 200px;
+	height: 188px;
 }
 a{
 	text-decoration: none;
@@ -189,6 +189,9 @@ box-shadow: 1px 1px 3px black;
 	.content {
 		 padding: 20px 20px 20px 20px;
 		 text-align: center;
+	}
+	.fab{
+	display: none;
 	}
 
 }
