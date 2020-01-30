@@ -168,7 +168,7 @@ box-shadow: 1px 1px 3px black;
 		height: 150px;
 	}
 	.fab{
-		font-size: 0px;
+		font-size: 0px !important;
 	}
 	#big_menu{
 		display: none;
