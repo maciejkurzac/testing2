@@ -13,7 +13,7 @@ hr{
 }
 header{
 	text-align: center;
-	font-size: 25px;
+	
 
   text-shadow: 1px 1px 3px black;
   margin-bottom: -20px;
@@ -46,7 +46,7 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 20px !important;
+	font-size: 17px;
 	font-family: Josefin Sans;
 	text-transform: uppercase;
 }
@@ -58,7 +58,7 @@ a{
 	transition: 0.3s;
 }
 #big_menu a:hover{
-	font-size: 18px;
+	font-size: 16px;
 	text-shadow: 2px 2px 2px black;
 }
 #big_menu ul{
