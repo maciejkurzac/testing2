@@ -13,14 +13,14 @@ hr{
 }
 header{
 	text-align: center;
-	
+	font-size: 25px;
 
   text-shadow: 1px 1px 3px black;
   margin-bottom: -20px;
 }
 header img{
 	width: 400px;
-	height: 188px;
+	height: 200px;
 }
 a{
 	text-decoration: none;
@@ -46,7 +46,7 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 17px;
+	font-size: 13px !important;
 	font-family: Josefin Sans;
 	text-transform: uppercase;
 }
@@ -58,7 +58,7 @@ a{
 	transition: 0.3s;
 }
 #big_menu a:hover{
-	font-size: 16px;
+	font-size: 12px;
 	text-shadow: 2px 2px 2px black;
 }
 #big_menu ul{
@@ -115,7 +115,7 @@ a{
 
 .separator {
 	color: black;
-  font-size: 17px;
+  font-size: 20px;
   height: 100px;
   text-align: center;
 	
@@ -129,12 +129,13 @@ a{
  	background-color: white;
 	 //font-family: 'Kalam', cursive;
 	 font-family: 'Poppins', sans-serif;
+
 }
   
 .mnie_pic{
   float: left;
   margin-right: 50px;
-box-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 3px black;
 }
 .mnie_pic img{
 	width: 300px;
@@ -161,14 +162,28 @@ box-shadow: 1px 1px 3px black;
 	filter: blur(2px);
 }
 
-  
+.cennik_left{
+	float: left;
+}
+.cennik_left img{
+	width: 250px;
+	height: 375px;
+} 
+.cennik_right{
+	float: right;
+}
+.cennik_right img{
+	width: 400px;
+	height: 600px;
+}
+
 @media (max-width: 1000px) {
 	header img{
 		width: 300px;
 		height: 150px;
 	}
 	.fab{
-		font-size: 0px !important;
+		font-size: 25px;
 	}
 	#big_menu{
 		display: none;
@@ -180,7 +195,6 @@ box-shadow: 1px 1px 3px black;
 		margin-top: 50px;
 	}
 	.mnie_txt{
-	
 		padding: 0px 0px 0px 0px;
 	}
 	.gallery img{
@@ -190,6 +204,11 @@ box-shadow: 1px 1px 3px black;
 		 padding: 20px 20px 20px 20px;
 		 text-align: center;
 	}
-	
+	.cennik_left{
+		float: none;
+	}
+	.cennik_right{
+		float: none;
+	}
 
 }
