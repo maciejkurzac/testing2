@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
-overflow: hidden;
+	overflow-y: scroll;
+
 }
 body{
 	margin: 0px;
