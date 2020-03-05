@@ -67,26 +67,9 @@
 	}, false); 
 	
 </script>
-	<!--<script>
-		
-        document.addEventListener('click', function() {
-		    document.getElementById('side-nav').style.width= "0px";
-	    }, false);
-	
-	    document.querySelector('#open nav').addEventListener('click', function(e) {
-            let side_nav = document.getElementById('side-nav');
-            if(side_nav.style.width=='0px')
-                side_nav.style.width = '200px';
-            else
-                side_nav.style.width= "0px";
-            e.stopPropagation();
-            return false;
-        }, false); 
-	</script>-->
-        
 
-        <div class="content mnie">
-		  <!--<h2>Lorem ipsum dolor sit amet!</h2>-->
+        <div class="content">
+		<section class="separator">
 		   <div class="mnie_pic"><img src="3.jpg" style="width: 300px;"></div>
 		   <div class="mnie_txt">
 				
@@ -101,49 +84,38 @@
                 nascetur ridiculus mus. Morbi lectus sapien, mollis at sollicitudin in, rhoncus nec ipsum.
 			
 			</div>
-        </div>  
-<!--
-        <section id="aktualnosci" class="separator">
-            <h3>Aktualności</h3>
-		<hr style="width: 50%">	   
-        </section>
+			
+        
+			<div id="pictures">
+				<a href="https://maciejkurzac.github.io/strona/portfolio.html"><img src="https://maciejkurzac.github.io/strona/artystyczny/20190409-_DSC5208-Edit-Edit.JPG" /></a>
+				<a href="https://maciejkurzac.github.io/strona/portfolio.html"><img src="https://maciejkurzac.github.io/strona/kobiecy/3%20(2).jpg" /></a>
+				<a href="https://maciejkurzac.github.io/strona/portfolio.html"><img src="https://maciejkurzac.github.io/strona/%C5%9Blubny/42776321_1958985104160015_343791795374653440_o.jpg" /></a>
+				<script>
+					(function () {
+						var container = document.querySelector("#pictures");
+						var pictures = container.querySelectorAll("a");
+						
+						function change () {
+							var current = container.querySelector("a.current");
+							var next = container.querySelector("a.current + a") || pictures[0];
+							
+							if (current) {
+								current.classList.remove("current");
+							}
+							
+							if (next) {
+								next.classList.add("current");
+							}
+						}
+						
+						change();
+						setInterval(change, 6000);
+					}());
+				</script>	
+			</div>
+		</section>
+		</div>  
 
-        <div class="content bg2">
-            <h2>Sed nec augue euismod magna tempor euismod.</h2>
-            <p>Sed nec augue euismod magna tempor euismod. Curabitur dictum rhoncus quam non lacinia. Vestibulum posuere risus convallis, 
-                tristique dui sit amet, rutrum magna. Fusce sagittis rhoncus velit vel malesuada. Duis id vestibulum ipsum.
-                 Proin tempor tortor et elit ultricies luctus. Pellentesque massa odio, rutrum quis justo in, tincidunt sagittis massa.
-                
-                Proin ante dui, efficitur a laoreet eget, tincidunt id nisl. Cras urna ex, porttitor a rutrum vitae, molestie ac urna. 
-                Donec ut augue nisi. Sed vestibulum, quam sodales luctus tincidunt, nunc orci ultrices est, et interdum elit nisl at enim. 
-                Integer commodo molestie nulla, vel ultrices dui dictum nec. Cras nunc massa, finibus sodales diam ut, venenatis auctor nisi. 
-                Ut sit amet eleifend metus.</p>
-        </div>
-
-        <section id="blog" class="separator">
-            <h3>Blog</h3>
-		<hr style="width: 50%">	    
-        </section>
-
-        <div class="content bg3">
-            <h2>Vestibulum tempor fermentum massa, eu pharetra libero commodo quis.</h2>
-            <p>Vestibulum tempor fermentum massa, eu pharetra libero commodo quis. 
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-                Morbi ex nisi, tincidunt vitae mauris lobortis, convallis sagittis diam. Donec dapibus vitae dolor non pretium. 
-                Nunc iaculis nulla libero, viverra vestibulum diam luctus non. Cras dignissim lectus et ex placerat, et consectetur elit efficitur. 
-                Phasellus laoreet dolor non felis venenatis faucibus. Morbi interdum sem in vestibulum convallis. Phasellus rutrum commodo erat. 
-                In ligula urna, ullamcorper vel erat ut, auctor rhoncus dolor. In tempus consequat lacus non dapibus.</p>
-        </div>
-
-        <section id="kontakt"class="separator">
-            <h3>Kontakt</h3>
-		<hr style="width: 50%">
-        </section>
--->
-        <div class="content bg4">
-		
-           
-        </div>
 	</div>
 </body>
 </html>
