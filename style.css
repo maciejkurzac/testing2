@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+overflow: hidden;
 }
 body{
 	margin: 0px;
@@ -27,8 +28,8 @@ a{
 }
 .fab{
 	position: absolute;
-	top:  75px;
-	font-size: 35px;
+	top: 50px;
+	font-size: 25px;
 }
 .fa-facebook{
 	right: 150px;
@@ -45,8 +46,8 @@ a{
 	position: sticky;
 	top: 0px;
 	z-index: 10;
-	border: 1px solid black;
-	font-size: 13px !important;
+	border: 1px solid lime;
+	//font-size: 13px !important;
 	font-family: Josefin Sans;
 	text-transform: uppercase;
 }
@@ -58,8 +59,9 @@ a{
 	transition: 0.3s;
 }
 #big_menu a:hover{
-	font-size: 12px;
+	font-size: 14px;
 	text-shadow: 2px 2px 2px black;
+
 }
 #big_menu ul{
   padding: 0px;
@@ -70,17 +72,20 @@ a{
 }
 .item-nav{
   transition: 0.2s;
+	height: 20px
 }
 
 #toggler{
 	position: fixed;
 	display: none;
-	top: 10px;
+	top: 35px;
+    left: 15px;
 	border: solid 1px black;
 	color: black;
 	padding: 12px;
 	margin-top: 20px;
 	margin-left:5px;
+	z-index: 10;
 	background-color: white;
 }
 #small_menu{
@@ -92,6 +97,7 @@ a{
 	transition: 0.5s;
 	font-size: 18px;
 	font-family: Josefin Sans;
+	z-index: 10;
 	text-transform: uppercase;
 }
 #small_menu a:hover{
@@ -104,7 +110,7 @@ a{
 #small_menu ul{
 	width: 120px;
 	padding: 10px;
-	margin: 0px;
+	margin-left: 15px;
 	background-color: white;
 	line-height: 200%;
 	list-style: none;
@@ -125,7 +131,7 @@ a{
  text-align: center;
   color: black;
 	padding: 20px 100px 20px 100px;
-  min-height: 650px;
+  min-height: 500px;
  	background-color: white;
 	 //font-family: 'Kalam', cursive;
 	 font-family: 'Poppins', sans-serif;
@@ -135,14 +141,37 @@ a{
 .mnie_pic{
   float: left;
   margin-right: 50px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 3px black;
 }
 .mnie_pic img{
 	width: 300px;
 }
 .mnie_txt{
-  padding: 50px 50px 50px 50px;
+  padding: 50px 350px 50px 50px;
+  background-color: white;
+z-index: 10;
 }
+#pictures a img {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+}
+#pictures a {
+    display: block;
+    position: absolute;
+    top: 297px;
+    right: -600px;
+    transition: right 0.5s ease-out;
+   
+}
+#pictures a.current {
+
+    right:100px;
+    
+}
+
 .gallery{
 	display: inline-block;
 	padding: 5px;
@@ -183,7 +212,8 @@ a{
 		height: 150px;
 	}
 	.fab{
-		font-size: 25px;
+		display: none !important;
+		
 	}
 	#big_menu{
 		display: none;
@@ -196,6 +226,9 @@ a{
 	}
 	.mnie_txt{
 		padding: 0px 0px 0px 0px;
+	}
+	.mnie_txt h3{
+		clear: left;
 	}
 	.gallery img{
 		transition: 0.2s;
@@ -210,5 +243,12 @@ a{
 	.cennik_right{
 		float: none;
 	}
-
+	#pictures a {
+  
+    top: 1200px;
+	}
+	html {
+	
+	overflow-y: auto;
+}
 }
